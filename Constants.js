@@ -11,3 +11,5 @@ var Ships = {
 	Submarine: [[1,1]],
 	Frigate: [[1]],
 };
+
+var Land = MakeArray(3,3,Lands.Land);
