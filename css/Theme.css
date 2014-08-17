@@ -4,27 +4,28 @@ table {
 
 .board td {
 	width: 16px;
-	height: 16px;
+	height: 20px;
+	border: 1px solid #ccc;
 }
 
 .tileSea {
-	background-color: blue;
-	background-image: url('../img/water-small.png');
+	background-color: #3547BD;
+	/*background-image: url('../img/water-small.png');*/
 }
 
 .tileLand {
-	background-color: green;
-	background-image: url('../img/grass-small.png');
+	background-color: #6fb07f;
+	/*background-image: url('../img/grass-small.png');*/
 }
 
 .tile0 {
-	background-color: #4C4C4C;
+	background-color: black;
 }
 
 .tile1 {
-	background-color: #FAE781;
+	background-color: #fcb03c;
 }
 
 .tile2 {
-	background-color: #F95929;
+	background-color: #fc5b3f;
 }
