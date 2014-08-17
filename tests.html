@@ -11,8 +11,10 @@
 	window.onload = function() {
 		var board = Board(16);
 		console.log(board);
-		PlaceShip(board, 1,2, Battleship, Orientations.Vertical);
+		PlaceShip(board, 1,2, Ships.Carrier, Orientations.Vertical);
 		console.log(board);
+		// this shouldn't do anything
+		console.log(PlaceShip(board, 1,2, Ships.Battleship, Orientations.Horizontal));
 	}
 	</script>
 </body>

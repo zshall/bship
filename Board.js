@@ -19,7 +19,6 @@ function PlaceShip(board, row, col, shape, orientation) {
 	condicio.checkPositionIndex(col, board[Layers.Ships][0].length);
 	
 	var validationArea = Crop(board[Layers.Ships], row, col, shape.length, shape[0].length);
-	console.log(validationArea);
 	
 	if (CheckEachTile(validationArea, function(tile) { return tile == Lands.Sea; })) {
 		// do the assignment
@@ -36,5 +35,9 @@ function PlaceShip(board, row, col, shape, orientation) {
 				}
 			}
 		}
+	} else {
+		return false;
 	}
+	
+	return true;
 }
