@@ -1,0 +1,5 @@
+table.board
+	each row, i in board[Layers.Ships]
+		tr
+			each col, j in board[Layers.Ships][i]
+				td(class='tile'+col)

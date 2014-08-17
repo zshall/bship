@@ -19,7 +19,7 @@ function PlaceShip(board, row, col, shape, orientation) {
 	condicio.checkPositionIndex(col, board[Layers.Ships][0].length);
 	
 	var validationArea = Crop(board[Layers.Ships], row, col, shape.length, shape[0].length);
-	var validation = shape == Land ?
+	var validation = shape == LandTiles.Land || shape == LandTiles.Sea ?
 		function(tile) { return tile == Lands.Sea || tile == Lands.Land; } :
 		function(tile) { return tile == Lands.Sea; };
 	

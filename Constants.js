@@ -12,4 +12,7 @@ var Ships = {
 	Frigate: [[1]],
 };
 
-var Land = MakeArray(3,3,Lands.Land);
+var LandTiles = {
+	Land: MakeArray(3,3,Lands.Land),
+	Sea: MakeArray(3,3,Lands.Sea)
+};

@@ -1,0 +1,30 @@
+table {
+	border-collapse: collapse;
+}
+
+.board td {
+	width: 16px;
+	height: 16px;
+}
+
+.tileSea {
+	background-color: blue;
+	background-image: url('../img/water-small.png');
+}
+
+.tileLand {
+	background-color: green;
+	background-image: url('../img/grass-small.png');
+}
+
+.tile0 {
+	background-color: #4C4C4C;
+}
+
+.tile1 {
+	background-color: #FAE781;
+}
+
+.tile2 {
+	background-color: #F95929;
+}
