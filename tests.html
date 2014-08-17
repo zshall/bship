@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title>Tests</title>
+</head>
+<body>
+	<script src="lib/condicio.js"></script>
+	<script src="Util.js"></script>
+	<script src="Constants.js"></script>
+	<script src="Board.js"></script>
+	<script>
+	window.onload = function() {
+		var board = Board(16);
+		console.log(board);
+		PlaceShip(board, 1,2, Battleship, Orientations.Vertical);
+		console.log(board);
+	}
+	</script>
+</body>
