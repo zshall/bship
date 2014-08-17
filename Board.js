@@ -37,6 +37,4 @@ function PlaceShip(board, row, col, shape, orientation) {
 			}
 		}
 	}
-	
-	return board; // not sure if board is modified in place or not
 }
